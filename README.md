@@ -10,6 +10,8 @@ Am Ende müssen Sie Ihr Projekt commiten und pushen. Senden Sie mir den Link in 
 ## Aufgabe 2
 
 Beantworten Sie die folgenden Frage hier direkt im Text: Welche Aufgabe haben cookies in unserer Banking-App?
+- Die Benutzerdaten des Kunden werden im Cookie gespeichert
+- Der Grund dafür kann sein, dass die Einstellungen (zb.: Sprache) bei der erneuten Anmeldung noch vorhanden sind.
 
 ## Aufgabe 3
 

@@ -5,7 +5,9 @@ class Kunde{
 		this.Vorname
 		this.Benutzername
 		this.Kennwort
-		// IstEingeloggt ist ein boolean.
+		// Aufgabe 6: Ergänze Eigenschaft Email
+		this.Email
+		// IstEingeloggt ist ein boolean. 
 		// Der Wert ist entweder wahr oder falsch.
 		this.IstEingeloggt
 	}
@@ -19,6 +21,7 @@ kunde.Nachname = "Kiff"
 kunde.Vorname = "Pit"
 kunde.Benutzername = "pk"
 kunde.Kennwort = "123"
+kunde.Email ="pit@kiff.de"
 kunde.IstEingeloggt = false
 
 // Klassenefinition des Kundenberaters
@@ -158,6 +161,9 @@ app.get('/agb', (req, res) => {
 	// Browser zurück.
 
 
+	// Die res.render muss zwischen if und else getauscht werden.
+	// Wenn der Kunde eingeloggt ist, wird die agb Seite gerendert.
+	// Wenn die Zugangsdaten nicht korrekt sind ... 
 	if(kunde.IstEingeloggt){
 
 		// Wenn die Zugangsdaten korrekt sind, dann wird die angesurfte Seite gerendert.
